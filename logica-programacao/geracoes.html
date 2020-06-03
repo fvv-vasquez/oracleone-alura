@@ -1,0 +1,21 @@
+<meta charset="utf-8">
+
+<script type="text/javascript">
+	
+	function pulaLinha() {
+        document.write("<br>");
+    }
+
+    function mostra(frase) {
+        document.write(frase);
+        pulaLinha();
+    }
+
+    var idadeMediaQuandoTemFilhos = 28;
+    var anoAtual = 2020; 
+
+    var quantidadeDeGeracoes = (anoAtual - 1500) / idadeMediaQuandoTemFilhos;
+
+    mostra(Math.round(quantidadeDeGeracoes));
+
+</script>

@@ -1,0 +1,93 @@
+.panel-speakers {
+    padding-top: 40px;
+    background-image: linear-gradient(to top, #e6e9f0 0%, #eef1f5 100%);
+}
+
+.panel-speakers .about-speakers {
+    text-align: center;
+}
+
+.panel-speakers .title {
+    color: #005082;
+    font-size: 40px;
+    margin-bottom: 16px;
+    text-transform: uppercase;
+}
+
+.panel-speakers .subtitle {
+    color: #7ab1df;
+    font-size: 32px;
+    margin-bottom: 30px;
+}
+
+.panel-speakers .speakers {
+    text-align: center;
+}
+
+.panel-speakers .speaker {
+    display: inline-block;
+    width: 220px;
+    background-color: white;
+    margin: 0 32px 32px 0;
+    padding: 18px;
+    border-radius: 10px;
+    vertical-align: top;
+}
+
+.panel-speakers .speaker-image {
+    border-radius: 50%;
+    height: 120px;
+    width: 120px;
+}
+
+.panel-speakers .speaker-name {
+    margin-top: 10px;
+}
+
+.panel-speakers .speaker-bio {
+    font-weight: bold;
+    margin-top: 16px;
+}
+
+.panel-speakers .speaker-speach {
+    margin-top: 16px;
+}
+
+.grow:hover{
+    -webkit-transform: scale(1.1);
+    -ms-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.border:hover{
+    border-width: 2px;
+    border-style: solid;
+    -webkit-border-image: -webkit-linear-gradient(top, #bea6cf 0%, #7ab1df 100%);
+    border-image: linear-gradient(to bottom, #bea6cf 0%, #7ab1df 100%);
+    border-image-slice: 1;
+}
+
+.linkedin {
+    margin-top: 16px;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.linkedin:hover {
+    width: 35px;
+    height: 35px;
+}
+
+.github {
+    margin-left: 10px;
+    margin-top: 16px;
+    width: 30px;
+    height: 30px;
+    transition: 0.3s;
+}
+
+.github:hover {
+    width: 35px;
+    height: 35px;
+}
